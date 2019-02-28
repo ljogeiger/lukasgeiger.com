@@ -1,0 +1,119 @@
+**CSS**
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+	width: 100%
+}
+body {
+	height: 100%;
+	width: 100%;
+}
+.header {
+}
+
+    .nav .logo {
+     position: fixed;
+     top: 22px;
+     left: 25px;
+     z-index: 1;
+    }
+
+    .nav .logo ul {
+      overflow: visible;
+      list-style-type: none;
+    }
+
+    .nav .logo ul li {
+      display: inline-block;
+    }
+
+    .nav .logo  li a {
+      font-size: 1.8em;
+      font-weight: 800;
+      text-decoration: none;
+      color: #000000;
+      font-family: 'Raleway' , sans-serif, Helvetica, Verdana;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 5px;
+    }
+
+    .nav .main-nav {
+      position: fixed;
+      top: 25px;
+      right: 10px;
+      letter-spacing: .2em;
+      z-index: 1;
+    }
+
+    .nav .main-nav ul {
+      overflow: visible;
+      list-style-type: none;
+    }
+
+    .nav .main-nav li {
+      height: 13px;
+      padding: 0 17px;
+      display: inline-block;
+    }
+
+    .nav .main-nav li:last-child {
+      border-right: none;
+    }
+
+    .nav .main-nav li a {
+      font-weight: 400;
+      text-decoration: none;
+      color: #000000;
+      font-family: 'Raleway' , sans-serif, Helvetica, Verdana;
+      text-transform: uppercase;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .nav .main-nav li a:hover {
+      background-color: rgba(50, 50, 50, 0.4);
+      padding: 3px 10px 3px 13px;
+      -moz-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -transition: all .3s ease;
+      -webkit-transition: all .3s ease;
+      -webkit-font-smoothing: antialiased;
+    }
+    .scale-image {
+        position: absolute;
+        left: 25%;
+        width: 50%;
+        opacity: 0.2;
+}
+
+.side-text {
+        position: relative;
+        top: 75px;
+        left: -95px;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-weight: 800;
+        font-size: 5em;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        text-align: center;
+        color: #78b3e0;
+        font-family: 'Raleway', sans-serif, Helvetica, Verdana;
+	opacity: 0.5;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.content {
+	
+}
+
+.video {
+	position: fixed;
+	top: 25%;
+	left: 180px;
+}

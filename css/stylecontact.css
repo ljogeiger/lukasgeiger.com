@@ -1,0 +1,164 @@
+**CSS**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lukasgeiger@Lukass-MBP:~/Desktop/Columbia/SophYear/sem2/Python/hw/InClass1$ python3 problem3.py
+Number of years: 3
+316298845
+lukasgeiger@Lukass-MBP:~/Desktop/Columbia/SophYear/sem2/Python/hw/InClass1$ python3 problem3.py
+Number of years: 5
+322259496
+lukasgeiger@Lukass-MBP:~/Desktop/Columbia/SophYear/sem2/Python/hw/InClass1$ ssh lukgei@lukasgeiger.copm,
+^[[A^C
+lukasgeiger@Lukass-MBP:~/Desktop/Columbia/SophYear/sem2/Python/hw/InClass1$ ssh lukgei@lukasgeiger.com
+Enter passphrase for key '/Users/lukasgeiger/.ssh/id_rsa': 
+                        _ __     
+    ___ ________ ____  (_) /____ 
+   / _ `/ __/ _ `/ _ \/ / __/ -_)
+   \_, /_/  \_,_/_//_/_/\__/\__/ 
+  /___/                          
+ Welcome to granite.dreamhost.com
+
+Any malicious and/or unauthorized activity is strictly forbidden.
+All activity may be logged by DreamHost Web Hosting.
+
+Last login: Sun Feb 17 16:57:10 2019 from 67.243.134.182
+[granite]$ 
+[granite]$ 
+[granite]$ cd lukasgeiger.com/
+[granite]$ vim rowing.html 
+[granite]$ cd css
+[granite]$ ls
+app.css  foundation.css  style.css  stylerow.css
+[granite]$ vim stylerow.css 
+
+**CSS**
+
+* {
+        margin: 0;
+        padding: 0;
+}
+html {
+        height: 100%;
+        width: 100%
+}
+body {
+        height: 100%;
+        width: 100%;
+}
+.header {
+}
+
+    .nav .logo {
+     position: fixed;
+     top: 22px;
+     left: 25px;
+     z-index: 1;
+    }
+
+    .nav .logo ul {
+      overflow: visible;
+      list-style-type: none;
+    }
+
+    .nav .logo ul li {
+      display: inline-block;
+    }
+
+    .nav .logo  li a {
+      font-size: 1.8em;
+      font-weight: 800;
+      text-decoration: none;
+      color: #000000;
+      font-family: 'Raleway' , sans-serif, Helvetica, Verdana;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 5px;
+    }
+
+    .nav .main-nav {
+      position: fixed;
+      top: 25px;
+      right: 10px;
+      letter-spacing: .2em;
+      z-index: 1;
+    }
+
+    .nav .main-nav ul {
+      overflow: visible;
+      list-style-type: none;
+    }
+
+    .nav .main-nav li {
+      height: 13px;
+      padding: 0 17px;
+      display: inline-block;
+    }
+
+    .nav .main-nav li:last-child {
+      border-right: none;
+    }
+
+    .nav .main-nav li a {
+      font-weight: 400;
+      text-decoration: none;
+      color: #000000;
+      font-family: 'Raleway' , sans-serif, Helvetica, Verdana;
+      text-transform: uppercase;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .nav .main-nav li a:hover {
+      background-color: rgba(50, 50, 50, 0.4);
+      padding: 3px 10px 3px 13px;
+      -moz-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -transition: all .3s ease;
+      -webkit-transition: all .3s ease;
+      -webkit-font-smoothing: antialiased;
+    }
+
+
+.content {
+
+}
+
+
+
