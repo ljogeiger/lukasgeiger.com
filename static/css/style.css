@@ -9,28 +9,25 @@
       width: 100%;
     }
     body {
+      background-color: #e3f2fd;
       width: 100%;
       height: 100%;
+      z-index: -1;
 }
-
-	@media only screen and (max-width: 728px) {
-  	body {
-    		background-color: lightblue;
- 	 }
-	.scale-image {
-		
-	}	
- }
 
 
     .header {
     }
     
-    .nav .logo {
-     position: fixed;
-     top: 22px;
-     left: 25px;
-     z-index: 1;
+    .nav-logo {
+     font-size: 1.8em;
+      font-weight: 800;
+      text-decoration: none;
+      color: #000000;
+      font-family: 'Raleway' , sans-serif, Helvetica, Verdana;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 5px;
     }
     
     .nav .logo ul {
@@ -84,23 +81,16 @@
       text-transform: uppercase;
       -webkit-font-smoothing: antialiased;
     }
-     
-    .nav .main-nav li a:hover {
-      background-color: rgba(50, 50, 50, 0.4);
-      padding: 3px 10px 3px 13px;
-      -moz-transition: all .3s ease;
-      -o-transition: all .3s ease;
-      -ms-transition: all .3s ease;
-      -transition: all .3s ease;
-      -webkit-transition: all .3s ease;
-      -webkit-font-smoothing: antialiased;
+
+    .text-center {
+      margin-top: 200px;
     }
-    
+
     .main-text {
       margin: auto;
       height: auto;
       position: absolute;
-      top: 230px;
+      top: 125px;
       left: 0;
       bottom: 0;
       right: 0;
@@ -132,20 +122,16 @@
     
     .main-wrapper {
       position: absolute;
+      margin-top: 100px;
       z-index: -1;   
       opacity: 0.2;
     }
    
    .scale-image {
-	width: 100%;
-	height: auto;	
+    width: 100%;
+  transform: rotate(90deg);
    }
-  **Will make background image scale by putting in body, opacity will be done outside of environment** 
-    .content {
-      width: auto;
-      height: auto;
-      z-index: 1;
-	}
+
 	
    hr {
 	width: 70%;
@@ -158,12 +144,13 @@
 	margin-bottom: 5px;
 	z-index: 0;
     }	    
+    
     .content .text-2 {
       
       color: #CCC;
       margin: auto;
       position: relative;
-      top: 600px;
+      top: 50px;
       left: 0;
       bottom: 0;
       right: 0;
