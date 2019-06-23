@@ -86,6 +86,10 @@
       margin-top: 200px;
     }
 
+    .profile-img{
+	max-width: 500px;
+	height: auto;
+    }
     .main-text {
       margin: auto;
       height: auto;
