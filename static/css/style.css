@@ -83,8 +83,8 @@
     }
 
     .text-center {
-      margin-top: 200px;
-    }
+      min-height: 200px;
+	}
 
     .profile-img{
 	max-width: 500px;
@@ -100,7 +100,7 @@
       right: 0;
     }
     
-    .main-text h1 {
+    .text-center h1 {
       font-weight: 600;
       font-size: 1.8em;
       line-height: 1.2em;
@@ -112,7 +112,7 @@
       padding-bottom: 15px;
     }
     
-    .main-text h2 {
+    .text-center h2 {
       font-weight: 400;
       font-size: 1.7em;
       line-height: 1.2em;
