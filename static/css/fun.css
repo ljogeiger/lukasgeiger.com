@@ -1,0 +1,177 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font: 15px "Roboto", sans-serif;
+	font-weight: 900;
+	background-color: transparent;
+}
+.panel {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+}
+.title-text {
+	font: 4rem "Roboto", sans-serif;
+	position: absolute;
+
+}
+.picture-text {
+	font: 3rem "Roboto", sans-serif;
+	position: absolute;
+
+}
+#intro-panel {
+	background-image: url("../img/Ben/Ben-Artopolis.jpg");
+}
+#intro-text {
+	left: 50%;
+    text-align: center;
+    color: #fff;
+
+    -webkit-animation: 3s ease 0s normal forwards 1 fadein; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: 3s ease 0s normal forwards 1 fadein; /* Firefox < 16 */
+        -ms-animation: 3s ease 0s normal forwards 1 fadein; /* Internet Explorer */
+         -o-animation: 3s ease 0s normal forwards 1 fadein; /* Opera < 12.1 */
+            animation: 3s ease 0s normal forwards 1 fadein;
+}
+#happy-panel {
+	background-image: url("../img/Ben/Ben-Banyoles.jpg");
+}
+#happy-text {
+	left: 7%;
+	text-align: center;
+	color: #fff;
+}
+#twenty-three-panel {
+	background-image: url("../img/Ben/Ben-Battery-Park-1.jpg");
+}
+#twenty-three-text {
+	left: 7%;
+	text-align: center;
+	color: #fff;
+}
+#birthday-panel {
+	background-image: url("../img/Ben/Ben-IRA.jpg");
+}
+#birthday-text {
+	left: 7%;
+	text-align: center;
+	color: #fff;
+}
+#running-start-panel {
+	background-image: url("../img/Ben/Ben-Henley-1.jpg");
+}
+#running-start-text {
+	left: 7%;
+	text-align: left;
+	color: #fff;
+}
+#this-year-panel {
+	background-image: url("../img/Ben/Ben-The-Hamilton.jpg");
+}
+#this-year-text {
+	left: 7%;
+	text-align: left;
+	color: #fff;
+}
+#mountain-panel {
+	background-image: url("../img/Ben/Ben-Hurricane-Mountain-1.jpg");
+}
+#mountain-text {
+	left: 7%;
+	text-align: left;
+	color: #000;
+}
+#southwest-panel {
+	background-image: url("../img/Ben/Ben-Southwest.jpg");
+}
+#southwest-text {
+	left: 7%;
+	text-align: left;
+	color: #fff;
+}
+#ice-cream-panel {
+	background-image: url("../img/Ben/Ben-Henley-2.jpg");
+}
+#ice-cream-text {
+	left: 7%;
+	text-align: left;
+	color: #fff;
+}
+#sunset-panel {
+	background-image: url("../img/Ben/Ben-Battery-Park-2.jpg");
+}
+#sunset-text {
+	left: 7%;
+	text-align: left;
+	color: #fff;
+}
+#love-yj-panel {
+	background-image: url("../img/Ben/Ben-Hurricane-Mountain-2.jpg");
+}
+#love-yj-text {
+	left: 7%;
+	top: 60%;
+	text-align: left;
+	color: #fff;
+}
+#love-yj-text h1{
+	margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+	.title-text {
+		font: 3rem "Roboto", sans-serif;
+		position: absolute;
+	}
+	.picture-text {
+		font: 2rem "Roboto", sans-serif;
+		position: absolute;
+	}
+	#intro-text {
+		left: 30%;
+	}
+	#twenty-three-panel {
+		background-position: left;
+	}
+	#birthday-panel {
+		background-position: right;
+	}
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    50%   { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    0% { opacity: 0; }
+    50%   { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    0% { opacity: 0; }
+    50%   { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    0% { opacity: 0; }
+    50%   { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    0% { opacity: 0; }
+    50%   { opacity: 0; }
+    100%   { opacity: 1; }
+}
