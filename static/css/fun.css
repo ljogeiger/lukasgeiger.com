@@ -24,7 +24,7 @@ body, html {
 
 }
 #intro-panel {
-	background-image: url("../img/Ben/Ben-Artopolis.jpg");
+	background-image: url("../img/RW/1.1NCBus.jpeg");
 }
 #intro-text {
 	left: 50%;
@@ -38,15 +38,16 @@ body, html {
             animation: 3s ease 0s normal forwards 1 fadein;
 }
 #happy-panel {
-	background-image: url("../img/Ben/Ben-Banyoles.jpg");
+	background: cover;
+	background-image: url("../img/RW/1.2NYCPier.jpeg");
 }
 #happy-text {
 	left: 7%;
 	text-align: center;
 	color: #fff;
 }
-#twenty-three-panel {
-	background-image: url("../img/Ben/Ben-Battery-Park-1.jpg");
+#twenty-panel {
+	background-image: url("../img/RW/1.3Riverside.jpeg");
 }
 #twenty-three-text {
 	left: 7%;
@@ -54,71 +55,82 @@ body, html {
 	color: #fff;
 }
 #birthday-panel {
-	background-image: url("../img/Ben/Ben-IRA.jpg");
+	background-image: url("../img/RW/1.4CentralPark.jpeg");
 }
 #birthday-text {
 	left: 7%;
 	text-align: center;
 	color: #fff;
 }
-#running-start-panel {
-	background-image: url("../img/Ben/Ben-Henley-1.jpg");
+#moving-panel {
+	background-image: url("../img/RW/2Moving.jpeg");
 }
-#running-start-text {
+#moving-text {
+	right: 7%;
+	text-align: right;
+	color: black;
+}
+#bike-panel {
+	background-image: url("../img/RW/3CPBike.jpeg");
+}
+#bike-text {
+	top: 50%;
 	left: 7%;
 	text-align: left;
 	color: #fff;
 }
-#this-year-panel {
-	background-image: url("../img/Ben/Ben-The-Hamilton.jpg");
+#nights-panel {
+	background-image: url("../img/RW/4SharedAudio.jpeg");
 }
-#this-year-text {
-	left: 7%;
-	text-align: left;
-	color: #fff;
-}
-#mountain-panel {
-	background-image: url("../img/Ben/Ben-Hurricane-Mountain-1.jpg");
-}
-#mountain-text {
-	left: 7%;
+#nights-text {
+	right: 7%;
 	text-align: left;
 	color: #000;
 }
-#southwest-panel {
-	background-image: url("../img/Ben/Ben-Southwest.jpg");
+#uhaul-panel {
+	background-image: url("../img/RW/5Uhaul.jpeg");
 }
-#southwest-text {
+#uhaul-text {
+	left: 50%;
+	text-align: left;
+	color: #fff;
+}
+#frisbee-panel {
+	background-image: url("../img/RW/6Frisbee.jpeg");
+}
+#frisbee-text {
+	top: 50%;
 	left: 7%;
 	text-align: left;
 	color: #fff;
 }
-#ice-cream-panel {
-	background-image: url("../img/Ben/Ben-Henley-2.jpg");
+#flowers-panel {
+	background-image: url("../img/RW/7NorthCarolinaFlowers.jpeg");
 }
-#ice-cream-text {
+#flowers-text {
+	top: 50%;
 	left: 7%;
 	text-align: left;
 	color: #fff;
 }
-#sunset-panel {
-	background-image: url("../img/Ben/Ben-Battery-Park-2.jpg");
+#wattst-panel {
+	background-image: url("../img/RW/8WattStreet.jpeg");
 }
-#sunset-text {
+#wattst-text {
 	left: 7%;
 	text-align: left;
 	color: #fff;
 }
-#love-yj-panel {
-	background-image: url("../img/Ben/Ben-Hurricane-Mountain-2.jpg");
+#last-panel {
+	background-image: url("../img/RW/9WalkInNYC.jpeg");
 }
-#love-yj-text {
+#last-text {
 	left: 7%;
 	top: 60%;
 	text-align: left;
 	color: #fff;
 }
-#love-yj-text h1{
+#last-text h1{
 	margin-bottom: 0px;
 }
 
