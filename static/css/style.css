@@ -1,12 +1,12 @@
 body {
-	background-color: #778ca3;}
+	background-color: #e3f2fd;}
 
 h1 {
 	text-align: center;
 }
 .circles{
 	text-align: center;
-	margin-top: 12%;
+	margin-top: 0%;
 }
 
 span{
@@ -39,6 +39,17 @@ div > p{
 .sidetext-wrapper {
 	display: inline-block;
 
+}
+
+.profile-img {
+	max-width: 250px;
+	height: auto;
+
+}
+.img-responsive {
+	-webkit-animation-duration: 2.5s;
+  	-moz-animation-duration: 2.5s;
+  	animation-duration: 2.5s;
 }
 
 div > a{
@@ -114,7 +125,7 @@ div > a{
 .circle {
 	width: 100px;
 	height: 100px;
-	border-radius: 50%;
+	border-radius: 40%;
 
 	vertical-align: middle;
 	margin-top: 2%;
@@ -126,9 +137,9 @@ div > a{
 
 	font-family: 'Montserrat', sans-serif;
 	font-size: 72px;
-	color: #fff;
-	background: #778ca3;
-	text-shadow: 2px 2px #505050;
+	color: black;
+	background: #e3f2fd;
+	/*text-shadow: 2px 2px #505050;*/
 
 	-webkit-animation: border-fade 2s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: border-fade 2s ease-in-out; /* Firefox < 16 */
@@ -150,7 +161,7 @@ div > a{
 
 .circle:hover {
 	border: 10px solid #FFFFFF;
-	background-color: #b9d9eb;
+	background-color: #e3f2fd;
 }
 
 .circle:hover span.text {
@@ -165,6 +176,7 @@ div > a{
 	left: 0;
 	line-height: 100px;
 	opacity: 0;
+	color: black;
 	-webkit-animation: linktext-fade 2s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: linktext-fade 2s ease-in-out; /* Firefox < 16 */
 	-ms-animation: linktext-fade 2s ease-in-out; /* Internet Explorer */
@@ -181,7 +193,7 @@ div > a{
 }
 
 #L {
-	border: 10px solid #45aaf2;
+	border: 5px solid #45aaf2;
 	-webkit-animation-delay: 0.1s;
 	-moz-animation-delay: 0.1s;
 	-ms-animation-delay: 0.1s;
@@ -190,7 +202,7 @@ div > a{
 }
 
 #U {
-	border: 10px solid #2d98da;
+	border: 5px solid #2d98da;
 	-webkit-animation-delay: 0.2s;
 	-moz-animation-delay: 0.2s;
 	-ms-animation-delay: 0.2s;
@@ -199,7 +211,7 @@ div > a{
 }
 
 #K {
-	border: 10px solid #4b7bec;
+	border: 5px solid #4b7bec;
 	-webkit-animation-delay: 0.3s;
 	-moz-animation-delay: 0.3s;
 	-ms-animation-delay: 0.3s;
@@ -208,7 +220,7 @@ div > a{
 }
 
 #A {
-	border: 10px solid #3867d6;
+	border: 5px solid #3867d6;
 	-webkit-animation-delay: 0.4s;
 	-moz-animation-delay: 0.4s;
 	-ms-animation-delay: 0.4s;
@@ -217,7 +229,7 @@ div > a{
 }
 
 #S {
-	border: 10px solid #2bcbba;
+	border: 5px solid #2bcbba;
 	-webkit-animation-delay: 0.5s;
 	-moz-animation-delay: 0.5s;
 	-ms-animation-delay: 0.5s;
@@ -226,7 +238,7 @@ div > a{
 }
 
 #G {
-	border: 10px solid #0fb9b1;
+	border: 5px solid #0fb9b1;
 	-webkit-animation-delay: 0.1s;
 	-moz-animation-delay: 0.1s;
 	-ms-animation-delay: 0.1s;
@@ -235,7 +247,7 @@ div > a{
 }
 
 #E {
-	border: 10px solid #2d98da;
+	border: 5px solid #2d98da;
 	-webkit-animation-delay: 0.2s;
 	-moz-animation-delay: 0.2s;
 	-ms-animation-delay: 0.2s;
@@ -244,7 +256,7 @@ div > a{
 }
 
 #I {
-	border: 10px solid #3867d6;
+	border: 5px solid #3867d6;
 	-webkit-animation-delay: 0.3s;
 	-moz-animation-delay: 0.3s;
 	-ms-animation-delay: 0.3s;
@@ -253,7 +265,7 @@ div > a{
 }
 
 #G2 {
-	border: 10px solid #0fb9b1;
+	border: 5px solid #0fb9b1;
 	-webkit-animation-delay: 0.4s;
 	-moz-animation-delay: 0.4s;
 	-ms-animation-delay: 0.4s;
@@ -263,7 +275,7 @@ div > a{
 
 
 #E2 {
-	border: 10px solid #4b6584;
+	border: 5px solid #4b6584;
 	-webkit-animation-delay: 0.45s;
 	-moz-animation-delay: 0.45s;
 	-ms-animation-delay: 0.45s;
@@ -271,7 +283,7 @@ div > a{
 	animation-delay: 0.45s;
 }
 #R {
-	border: 10px solid #4b6584;
+	border: 5px solid #4b6584;
 	-webkit-animation-delay: 0.5s;
 	-moz-animation-delay: 0.5s;
 	-ms-animation-delay: 0.5s;
@@ -286,9 +298,14 @@ br {
 
 @media screen and (max-width: 1024px){
 
+	.profile-img {
+		display: none;
+	}
 
 	.circle span.side-text {
 		display: inline-block;
+		font-size: 40px;
+		margin-left: 130px;		
 
 	}
 
@@ -296,4 +313,5 @@ br {
 		display: block;
 		margin-left: 0px;
 	}
+
 }

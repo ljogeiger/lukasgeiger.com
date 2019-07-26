@@ -23,8 +23,12 @@ body, html {
 	position: absolute;
 
 }
+.tiny-text {
+	font: 1rem "Roboto", sans-serif;
+	position: absolute;
+}
 #intro-panel {
-	background-image: url("../img/RW/1.1NCBus.jpeg");
+	background-image: url("../img/RW/1.2NYCPier.jpeg");
 }
 #intro-text {
 	left: 50%;
@@ -39,15 +43,15 @@ body, html {
 }
 #happy-panel {
 	background: cover;
-	background-image: url("../img/RW/1.2NYCPier.jpeg");
+	background-image: url("../img/RW/Bathroom.jpeg");
 }
 #happy-text {
-	left: 7%;
+	left: 25%;
 	text-align: center;
 	color: #fff;
 }
 #twenty-panel {
-	background-image: url("../img/RW/1.3Riverside.jpeg");
+	background-image: url("../img/RW/GoodbyeParents.jpeg");
 }
 #twenty-three-text {
 	left: 7%;
@@ -108,7 +112,7 @@ body, html {
 	background-image: url("../img/RW/7NorthCarolinaFlowers.jpeg");
 }
 #flowers-text {
-	top: 50%;
+	bottom: 7%;
 	left: 7%;
 	text-align: left;
 	color: #fff;
@@ -119,6 +123,12 @@ body, html {
 #wattst-text {
 	left: 7%;
 	text-align: left;
+	color: #fff;
+}
+#wattst-tiny {
+	bottom: 7%;
+	right: 7%;
+	text-align: right;
 	color: #fff;
 }
 #last-panel {
