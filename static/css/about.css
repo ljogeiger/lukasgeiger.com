@@ -4,17 +4,32 @@
       height: 100%;
       width: 100%;
     }
+
     body {
+      background: url(../img/lukasphoto.jpeg) top center;
       font-family: 'Raleway' , sans-serif, Helvetica, Verdana;
       text-transform: uppercase;
       font-weight: bold;
+      background-size: fixed;
       letter-spacing: 5px;
-      background-color: #e3f2fd;
+      /*background-color: #e3f2fd;*/
       width: 100%;
       height: 100%;
       z-index: -1;
-}
+}   
 
+    .bottom {
+      position: absolute;
+      top: 500px;
+    }
+
+    #veil {
+      margin-top: 10px
+      height: auto;
+      width: 100%;
+      background-color: black;
+      opacity: .75;
+    }
     
     .nav-logo {
       font-size: 1.8em;
@@ -46,11 +61,14 @@
     }
     
     h1 {
+      font-family: 'Raleway' , sans-serif, Helvetica, Verdana;
       font-weight: 600;
       font-size: 1.8em;
       line-height: 1.2em;
       letter-spacing: .1em;
-      padding-bottom: 15px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      color: white;
     }
     
     h2 {
@@ -59,7 +77,9 @@
       line-height: 1.2em;
       letter-spacing: .1em;
       text-align: center;
-      padding-bottom: 15px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      color: white;
     }
    
    .scale-image {
@@ -77,6 +97,7 @@
   	border: 0 none;
   	margin-top: 0px;
   	margin-bottom: 5px;
+    color: white;
     }	   
 
    p {
@@ -85,9 +106,9 @@
       line-height: 1.2em;
       letter-spacing: .1em;
       text-align: center;
-      color: #000000;
+      color: white;
       font-family: 'Raleway' , sans-serif, Helvetica, Verdana;
-      padding-bottom: 15px;
+      padding-bottom: 0px;
       -webkit-font-smoothing: antialiased;
 
    } 
