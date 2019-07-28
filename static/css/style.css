@@ -302,6 +302,7 @@ br {
 
 	body {
     	background: url(../img/white1.png) top center;
+    	background-size: cover;
   	}
 
 	.profile-img {
