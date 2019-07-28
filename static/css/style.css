@@ -1,12 +1,14 @@
 body {
-	background-color: #e3f2fd;}
+	background: url(../img/family.jpeg) top center;
+	background-size: fixed;
+}
 
 h1 {
 	text-align: center;
 }
 .circles{
 	text-align: center;
-	margin-top: 0%;
+	margin-top: 2%;
 }
 
 span{
@@ -137,8 +139,8 @@ div > a{
 
 	font-family: 'Montserrat', sans-serif;
 	font-size: 72px;
-	color: black;
-	background: #e3f2fd;
+	color: white;
+	/*background: white; /*#e3f2fd;*/*/
 	/*text-shadow: 2px 2px #505050;*/
 
 	-webkit-animation: border-fade 2s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
@@ -161,7 +163,7 @@ div > a{
 
 .circle:hover {
 	border: 10px solid #FFFFFF;
-	background-color: #e3f2fd;
+	/*background-color: white; /*#e3f2fd;*/*/
 }
 
 .circle:hover span.text {
@@ -176,7 +178,7 @@ div > a{
 	left: 0;
 	line-height: 100px;
 	opacity: 0;
-	color: black;
+	color: white;
 	-webkit-animation: linktext-fade 2s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: linktext-fade 2s ease-in-out; /* Firefox < 16 */
 	-ms-animation: linktext-fade 2s ease-in-out; /* Internet Explorer */
@@ -298,20 +300,30 @@ br {
 
 @media screen and (max-width: 1024px){
 
+	body {
+    	background: url(../img/white1.png) top center;
+  	}
+
 	.profile-img {
 		display: none;
 	}
-
+	.circle span.text {
+		color: black;
+	}
 	.circle span.side-text {
 		display: inline-block;
 		font-size: 40px;
-		margin-left: 130px;		
-
+		margin-left: 130px;
 	}
 
 	.circle-wrapper{
 		display: block;
 		margin-left: 0px;
 	}
-
+	.circles {
+		margin-top: 7%;
+	}
+	.circle {
+		color: black;
+	}
 }

@@ -9,7 +9,8 @@
       text-transform: uppercase;
       font-weight: bold;
       letter-spacing: 5px;
-      background-color: #e3f2fd;
+      background: url(../img/white1.png) top center;
+      background-size: cover;
       width: 100%;
       height: 100%;
       z-index: -1;
@@ -36,8 +37,8 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    .profile-img {
-	     max-width: 250px;
+    .lion-img {
+	     max-width: 100px;
 	     height: auto;
     }
     
