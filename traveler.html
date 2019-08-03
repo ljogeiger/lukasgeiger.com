@@ -1,63 +1,54 @@
 <!doctype html>
 <html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lukas's Map</title>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,500' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="static/css/traveler.css">
-    
-  </head>
-  
-  <body>
-    <div class="header">
-  
-    <nav class="navbar navbar-light navbar-expand-lg">
-      <a class="nav-logo navbar-brand" href="index.html">Lukas Geiger</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+</head>
 
-      <div class="collapse navbar-collapse w-100 order-3" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="rowing.html">Rowing</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-          </li> 
-          <li class="nav-item active">
-              <a class="nav-link" href="traveler.html">Origins</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  
-  </div> <!--END header-->
-  
+<body>
+    <div class="header">
+        <nav class="navbar navbar-light navbar-expand-lg">
+            <a class="nav-logo navbar-brand" href="/">Lukas Geiger</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse w-100 order-3" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rowing.html">Rowing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="traveler.html">Origins</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--END header-->
     <header>
         <h1 class="text-center">My Origins</h1>
         <h2>A Google Maps API Travel Map</h2>
     </header>
-    
     <div id="wanderer-map"></div>
-    
     <!--Scripts-->
-    
     <script src="static/js/traveler.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeaqXbKtjn4LEySHs7UbsRxuehCW57tYU&callback=initMap&libraries=places" async defer></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 
-  </body>
 </html>
-

@@ -1,115 +1,111 @@
-**CSS**
+**CSS** html {
+    height: 100%;
+    width: 100%;
+}
 
-    html{
-      height: 100%;
-      width: 100%;
-    }
+body {
+    background: url(../img/lukasphoto.jpeg) top center;
+    font-family: 'Raleway', sans-serif, Helvetica, Verdana;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-size: fixed;
+    letter-spacing: 5px;
+    /*background-color: #e3f2fd;*/
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 
-    body {
-      background: url(../img/lukasphoto.jpeg) top center;
-      font-family: 'Raleway' , sans-serif, Helvetica, Verdana;
-      text-transform: uppercase;
-      font-weight: bold;
-      background-size: fixed;
-      letter-spacing: 5px;
-      /*background-color: #e3f2fd;*/
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-}   
+.bottom {
+    position: absolute;
+    top: 500px;
+}
 
-    .bottom {
-      position: absolute;
-      top: 500px;
-    }
+#veil {
+    margin-top: 10px height: auto;
+    width: 100%;
+    background-color: black;
+    opacity: .75;
+}
 
-    #veil {
-      margin-top: 10px
-      height: auto;
-      width: 100%;
-      background-color: black;
-      opacity: .75;
-    }
-    
-    .nav-logo {
-      font-size: 1.8em;
-      font-weight: 800;
-    }
-    
-    .nav .logo  li a {
-      font-size: 1.8em;
-      font-weight: 800;
-    }
-     
-    .nav .main-nav li {
-      height: 13px;
-      padding: 0 17px;
-    }
-     
-    .nav .main-nav li a {
-      font-weight: 400;
-      -webkit-font-smoothing: antialiased;
-    }
+.nav-logo {
+    font-size: 1.8em;
+    font-weight: 800;
+}
 
-    .text-center {
-      min-height: 200px;
-	}
+.nav .logo li a {
+    font-size: 1.8em;
+    font-weight: 800;
+}
 
-    .profile-img {
-	     max-width: 250px;
-	     height: auto;
-    }
-    
-    h1 {
-      font-family: 'Raleway' , sans-serif, Helvetica, Verdana;
-      font-weight: 600;
-      font-size: 3em;
-      line-height: 1.2em;
-      letter-spacing: .1em;
-      padding-bottom: 5px;
-      padding-top: 5px;
-      color: white;
-    }
-    
-    h2 {
-      font-weight: 400;
-      font-size: 1.7em;
-      line-height: 1.2em;
-      letter-spacing: .1em;
-      text-align: center;
-      padding-bottom: 5px;
-      padding-top: 5px;
-      color: white;
-    }
-   
-   .scale-image {
+.nav .main-nav li {
+    height: 13px;
+    padding: 0 17px;
+}
+
+.nav .main-nav li a {
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.text-center {
+    min-height: 200px;
+}
+
+.profile-img {
+    max-width: 250px;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif, Helvetica, Verdana;
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 1.2em;
+    letter-spacing: .1em;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.7em;
+    line-height: 1.2em;
+    letter-spacing: .1em;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+.scale-image {
     width: 100%;
     transform: rotate(90deg);
-   }
+}
 
-	
-   hr {
-  	width: 70%;
-  	height: 0.5px;
-  	margin-left: auto;
-  	margin-right: auto;
-  	background-color: black;
-  	border: 0 none;
-  	margin-top: 0px;
-  	margin-bottom: 5px;
+
+hr {
+    width: 70%;
+    height: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border: 0 none;
+    margin-top: 0px;
+    margin-bottom: 5px;
     color: white;
-    }	   
+}
 
-   p {
-      font-weight: 200;
-      font-size: 1.4em;
-      line-height: 1.2em;
-      letter-spacing: .1em;
-      text-align: center;
-      color: white;
-      font-family: 'Raleway' , sans-serif, Helvetica, Verdana;
-      padding-bottom: 0px;
-      -webkit-font-smoothing: antialiased;
+p {
+    font-weight: 200;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    letter-spacing: .1em;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif, Helvetica, Verdana;
+    padding-bottom: 0px;
+    -webkit-font-smoothing: antialiased;
 
-   } 
-
+}
