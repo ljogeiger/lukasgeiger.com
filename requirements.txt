@@ -4,7 +4,7 @@ Flask-WTF==0.13.0
 Jinja2==2.8
 MarkupSafe==0.23
 WTForms==0.13.0
-Werkzeug==0.10.4
+Werkzeug==0.15.3
 argparse==1.2.1
 flask-mongoengine==0.8.2
 itsdangerous==0.24
