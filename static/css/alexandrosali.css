@@ -32,13 +32,14 @@ html {
 }
 
 #intro-panel {
-  background-image: url("../img/alexandrosalli//1first.jpeg");
+  background-image: url("../img/alexandrosalli/1first.jpeg");
 }
 
 #intro-text {
   left: 50%;
   text-align: center;
   color: #fff;
+  top: 500px;
 
   -webkit-animation: 3s ease 0s normal forwards 1 fadein;
   /* Safari, Chrome and Opera > 12.1 */
@@ -52,90 +53,108 @@ html {
 }
 
 #happy-panel {
-  background: cover;
-  background-image: url("../img/alexandrosali/2ISOP.jpeg");
+  background-size: contain;
+  background-position: left;
+  background-image: url("../img/alexandrosalli/2ISOP.jpeg");
+  background-color: #000;
 }
 
 #happy-text {
-  left: 25%;
+  left: 45%;
   text-align: center;
   color: #fff;
 }
 
 #twenty-panel {
-  background-image: url("../img/alexandrosali/5Scavenger.jpeg");
+  background-size: contain;
+  background-position: right;
+  background-color: #000;
+  background-image: url("../img/alexandrosalli/5Scavenger.jpeg");
 }
 
 #twenty-three-text {
-  left: 7%;
-  text-align: center;
+  left: 0%;
+  text-align: left;
   color: #fff;
+  word-wrap: break-word;
+  width: 700px;
 }
 
 #birthday-panel {
-  background-image: url("../img/alexandrosali/4Java.jpeg");
+  background-size: contain;
+  background-position: right;
+  background-color: #000;
+  background-image: url("../img/alexandrosalli/4Java.jpeg");
 }
 
 #birthday-text {
-  left: 7%;
+  left: -20px;
   text-align: center;
   color: #fff;
+  word-wrap: break-word;
+  width: 70%;
 }
 
 #moving-panel {
-  background-image: url("../img/alexandrosali/12Runs.jpeg");
+  background-image: url("../img/alexandrosalli/12Runs.jpeg");
 }
 
 #moving-text {
   right: 7%;
   text-align: right;
-  color: black;
+  color: white;
+  top: 600px;
 }
 
 #bike-panel {
-  background-image: url("../img/alexandrosali/13SanDiego.jpeg");
+  background-image: url("../img/alexandrosalli/13SanDiego.jpeg");
 }
 
 #bike-text {
-  top: 50%;
+  top: 60%;
   left: 7%;
   text-align: left;
   color: #fff;
 }
 
 #nights-panel {
-  background-image: url("../img/alexandrosali/6NYCOutings.jpeg");
+  background-size: contain;
+  background-color: black;
+  background-image: url("../img/alexandrosalli/6NYCOutings.jpeg");
 }
 
 #nights-text {
   right: 7%;
   text-align: left;
-  color: #000;
+  color: white;
 }
 
 #uhaul-panel {
-  background-image: url("../img/alexandrosali/7USA.jpeg");
+  background-image: url("../img/alexandrosalli/7USA.jpeg");
 }
 
 #uhaul-text {
   left: 50%;
   text-align: left;
-  color: #fff;
+  color: black;
 }
 
 #frisbee-panel {
-  background-image: url("../img/alexandrosali/9Princeton.jpeg");
+  background-image: url("../img/alexandrosalli/9Princeton.jpeg");
 }
 
 #frisbee-text {
-  top: 50%;
+  top: 55%;
   left: 7%;
   text-align: left;
   color: #fff;
 }
 
 #flowers-panel {
-  background-image: url("../img/alexandrosali/10KCRA.jpeg");
+  background-size: contain;
+  background-position: right;
+  background-color: #000;
+  background-image: url("../img/alexandrosalli/10KCRA.jpeg");
 }
 
 #flowers-text {
@@ -143,14 +162,19 @@ html {
   left: 7%;
   text-align: left;
   color: #fff;
+  word-wrap: break-word;
+  width: 50%;
 }
 
 #wattst-panel {
-  background-image: url("../img/alexandrosali/11Rooftops.jpeg");
+  /* background-size: contain; */
+  background-position: left;
+  background-color: #000;
+  background-image: url("../img/alexandrosalli/11Rooftops.jpeg");
 }
 
 #wattst-text {
-  left: 7%;
+  left: 3%;
   text-align: left;
   color: #fff;
 }
@@ -163,12 +187,11 @@ html {
 }
 
 #last-panel {
-  background-image: url("../img/alexandrosali/14Whitney.jpeg");
+  background-image: url("../img/alexandrosalli/14Whitney.jpeg");
 }
 
 #last-text {
   left: 7%;
-  top: 60%;
   text-align: left;
   color: #fff;
 }
