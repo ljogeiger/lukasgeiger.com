@@ -34,13 +34,13 @@ html {
 }
 
 #intro-panel {
-    background-image: url("../img/RW/1.2NYCPier.jpeg");
+    background-image: url("../img/RW21/1.jpeg");
 }
 
 #intro-text {
-    left: 50%;
+    left: 60%;
     text-align: center;
-    color: #fff;
+    color: black;
 
     -webkit-animation: 3s ease 0s normal forwards 1 fadein;
     /* Safari, Chrome and Opera > 12.1 */
@@ -55,47 +55,56 @@ html {
 
 #happy-panel {
     background: cover;
-    background-image: url("../img/RW/Bathroom.jpeg");
+    background-image: url("../img/RW21/2.jpeg");
+    background-size: contain;
+    background-position: right;
+    background-color: black;
 }
 
 #happy-text {
-    left: 25%;
+    left: 2%;
     text-align: center;
     color: #fff;
 }
 
 #twenty-panel {
-    background-image: url("../img/RW/GoodbyeParents.jpeg");
+    background-image: url("../img/RW21/3.jpeg");
 }
 
 #twenty-three-text {
-    left: 7%;
+    left: 45%;
     text-align: center;
     color: #fff;
 }
 
 #birthday-panel {
-    background-image: url("../img/RW/1.4CentralPark.jpeg");
+    background-image: url("../img/RW21/4.jpeg");
+    background-size: contain;
+    background-position: left;
+    background-color: black;
 }
 
 #birthday-text {
-    left: 7%;
+    left: 60%;
     text-align: center;
     color: #fff;
 }
 
 #moving-panel {
-    background-image: url("../img/RW/2Moving.jpeg");
+    background-image: url("../img/RW21/5.jpeg");
 }
 
 #moving-text {
     right: 7%;
     text-align: right;
-    color: black;
+    color: white;
 }
 
 #bike-panel {
-    background-image: url("../img/RW/3CPBike.jpeg");
+    background-image: url("../img/RW21/6.jpeg");
+    background-size: contain;
+    background-position: right;
+    background-color: black;
 }
 
 #bike-text {
@@ -106,17 +115,23 @@ html {
 }
 
 #nights-panel {
-    background-image: url("../img/RW/4SharedAudio.jpeg");
+    background-image: url("../img/RW21/7.jpeg");
+    background-size: contain;
+    background-position: left;
+    background-color: black;
 }
 
 #nights-text {
     right: 7%;
     text-align: left;
-    color: #000;
+    color: white;
 }
 
 #uhaul-panel {
-    background-image: url("../img/RW/5Uhaul.jpeg");
+    background-image: url("../img/RW21/8.jpeg");
+    background-size: contain;
+    background-position: left;
+    background-color: black;
 }
 
 #uhaul-text {
@@ -126,7 +141,7 @@ html {
 }
 
 #frisbee-panel {
-    background-image: url("../img/RW/6Frisbee.jpeg");
+    background-image: url("../img/RW21/9.jpeg");
 }
 
 #frisbee-text {
@@ -137,18 +152,18 @@ html {
 }
 
 #flowers-panel {
-    background-image: url("../img/RW/7NorthCarolinaFlowers.jpeg");
+    background-image: url("../img/RW21/10.jpeg");
 }
 
 #flowers-text {
-    bottom: 7%;
-    left: 7%;
+    top: 7%;
+    left: 70%;
     text-align: left;
-    color: #fff;
+    color: black;
 }
 
 #wattst-panel {
-    background-image: url("../img/RW/8WattStreet.jpeg");
+    background-image: url("../img/RW21/11.jpeg");
 }
 
 #wattst-text {
@@ -165,7 +180,7 @@ html {
 }
 
 #last-panel {
-    background-image: url("../img/RW/9WalkInNYC.jpeg");
+    background-image: url("../img/RW21/12.jpeg");
 }
 
 #last-text {
@@ -173,6 +188,7 @@ html {
     top: 60%;
     text-align: left;
     color: #fff;
+    line-height: 50px;
 }
 
 #last-text h1 {
