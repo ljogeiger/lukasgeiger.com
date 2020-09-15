@@ -5,6 +5,7 @@ function initMap() {
     var yellow = 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png'; // Home
     var red = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png'; // Visited
     var green = 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'; // Planned
+    var pink = 'http://maps.google.com/mapfiles/ms/icons/pink-dot.png'; //Natalie
 
     var lineSymbol = {
         path: 'M 0,-1 0,1',
@@ -368,7 +369,7 @@ function initMap() {
     addMarker([
         ['<strong>Cincinnati, Ohio</strong> (4th Move 2012)', 39.1031, -84.5120, green],
         ['<strong>Miami, Florida</strong>', 25.7617, -80.1918, red],
-        ['<strong>Louisville, Kentucky</strong>', 38.2527, -85.7585, red],
+        ['<strong>Louisville, Kentucky (Hi Natalie :) )</strong>', 38.2527, -85.7585, pink],
         ['<strong>Indianapolis, Indiana</strong>', 39.7684, -86.1581, red],
         ['<strong>Cleveland, Ohio</strong>', 41.4993, -81.6944, red],
         ['<strong>Chicago, Illinois</strong>', 41.8781, -87.6298, red],
