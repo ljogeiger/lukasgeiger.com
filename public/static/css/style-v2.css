@@ -1,0 +1,62 @@
+body {
+  background: white;
+  background-size: fixed;
+  background-repeat: no-repeat;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #b9d9eb;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+span {
+  vertical-align: middle;
+}
+
+.profile-img {
+  max-width: 250px;
+  height: auto;
+}
+
+.menu {
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.blog {
+  display: inline-block;
+}
+
+.button {
+  background-color: white;
+  border: 10px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

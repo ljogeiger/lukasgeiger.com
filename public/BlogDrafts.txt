@@ -1,0 +1,46 @@
+Blog Drafts
+
+
+#1 - ¿The Art of Asking Questions?
+
+Why do people ask questions? What is a connecting question? What can I achieve by asking questions? Could asking the right questions get you a job? A romantic relationship?
+
+During the fall of my Junior year in my undergraduate degree, I was hellbent on getting an internship at some tech company as a software developer. My strategy was to apply to as many technology companies as possible. The only limiting factor was that I wanted it to be in the United States (or at least work for an American company). By November I had applied to 73 internships and gotten 5 first-round interviews and 2 offers - one at Bank of America as a software developer and one at Salesforce as a Solution Engineer. I ended up taking the latter even though it was in a role I had no intention of applying to at the beginning of the process.
+
+While my success rate is quite low - I only had two offers in the end - I had an absolutely wonderful time at my 5 month internship with Salesforce. You really only need one company to say yes. And in the process I not only drilled into what kind of company I wanted to work for but also in what job role. When I started my search I was looking at jobs in software development. By the end I was looking for technical sales roles for companies specializing in SAAS platforms. 
+
+I started my job search with listing all the questions I had:
+What are the top companies to work for? 
+Do I want to go big firm or small startup?
+What role in technology to I want to apply to? 
+Do I know anyone at these companies? 
+(And many more...)
+
+To be honest, I had no idea what questions I needed to ask. Am I even asking the right questions? So I turned to people with more experience. I started going to every free networking event I could attend. I asked my parents if they had any connections I could talk to. I asked my friends and mentors to connect me with anyone in a relevant field/company. I reached out to Columbia alumni that I found on LinkedIn using a targeted search. Not to necessarily ask for referrals (although those are always nice), but rather to hear their life story. What got them to where they are today? How did they make their decision? 
+
+People absolutely love to talk about themselves. Especially those with more life experience. Use that fact at networking events by being genuinely interested in what others have to say and follow up with thoughtful questions to nudge the conversation in a direction determined by you. Chris Voss, a former FBI negotiator, has excellent advice on the art of negotiation which we can apply to everyday conversations. One of his suggestions is to be an "active listener in order to gain the trust of the other party". People often are afraid of silence. I think, and Chris Voss would agree, silence is a tool. You first have to be silent so you can hear what the other person has to say. Too often do I see people talking about themselves during networking events. Save that for the interview - this is not the time for that. I can use silence to my advantage. Silence from both parties with a confused look on my face will encourage the other party to explain what (s)he said. Silence on my part and the right body language will show the other party that I am actively listening thereby building rapport with them. Furthermore, I can easily pick the direction I want the conversation to go by using a tactic Chris Voss calls mirroring. <a href="http://www.nlp-secrets.com/nlp-technique-mirroring.php" target="_blank">Mirroring</a> is when you repeat the last three words (or critical one to three words) of what someone has just said. You can have a full fledged conversation by simply using mirroring. Don't believe me? Try it the next time you have a conversation with one of your friends. 
+
+To go back to our original conversation on questions: Chris Voss suggests using Calibrated Questions. These questions have the power to educate the other party on what the problem is rather than causing conflict and telling them the problem. These are questions like: "What about this is important to you?"; "How can I help make this better for you"; "How can we solve this problem?". Applying this framework to our goal of getting a referral we come up with questions like: "I really want to work for _____, how can I get there?" or "When you were my age were you in a similar situation? And if so what was your next step?". Obviously you have to be in good rapport with the other party before asking questions like these. Once you are, you can calibrate your questions to make the other party feel like they are in charge, but really you're the one who's driving the conversation. 
+
+Switching subject matters, I want to explore a study done by Arthur Aron which explores whether intimacy between two strangers can be accelerated by asking each other a specific set of questions. (https://journals-sagepub-com.ezproxy.cul.columbia.edu/doi/pdf/10.1177/0146167297234003) After conducting the experiment, their conclusion was that by encouraging participants in the study to answer personal questions over a set of 45 minutes they detected a significant increase in "perceived closeness" levels. Mutual vulnerability fosters closeness. I admit the questions were merely a tool which encouraged two people to share intimate details about themselves rather than creating the connections themselves. However, it also proves my point - we can leverage this tool to increase the likelihood of connecting with an individual or individuals. 
+
+Questions are the mechanism through which we can demonstrate curiosity, form new bonds, gain key insights, and so much more. By leveraging this tool we can drive conversations in a direction we want to go, open up new opportunities through information gathering or unlocking a bond between two people, or even lay the groundwork for love. I challenge my readers to start thinking more about asking the right questions at the right moment to the right person. Trust me it will serve you well. 
+
+
+
+
+As an additional example of what people can achieve by asking questions I want to introduce Roshi Givechi from IDEO. 
+
+
+
+
+
+----------------------------------
+Job Search using Questions: 
+1. Start putting yourself in a position where you are interacting with a diverse group of people. 
+2. Introduce yourself, establish why you are talking to them, then get out of the way. 
+3. Nudge the conversation where you want it to go using questions. 
+
+
+
+
