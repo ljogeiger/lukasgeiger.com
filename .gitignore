@@ -1,3 +1,7 @@
 *.un~
 *.pyc
 *~
+*.firebaserc
+*.vscode
+*firebase.json
+
